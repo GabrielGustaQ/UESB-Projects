@@ -4,6 +4,7 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "java",
             "name": "Launch Current File",
@@ -12,9 +13,17 @@
         },
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Atividades_JavaFX.Atividade_14-1.src.visao.App",
+            "projectName": "UESB-Projects_b56ff389",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "Launch Q2",
             "request": "launch",
-            "mainClass": "Questão02.Q2",
+            "mainClass": "Atividades_JavaFX.Atividade_14.src.Questão2.Q2",
             "projectName": "UESB-Projects_b56ff389",
             "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         },
@@ -22,7 +31,7 @@
             "type": "java",
             "name": "Launch Q3",
             "request": "launch",
-            "mainClass": "Questão03.Q3",
+            "mainClass": "Atividades_JavaFX.Atividade_14.src.Questão3.Q3",
             "projectName": "UESB-Projects_b56ff389",
             "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         }
