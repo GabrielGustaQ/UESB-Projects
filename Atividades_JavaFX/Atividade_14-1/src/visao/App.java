@@ -13,9 +13,9 @@ public class App extends Application {
 
     @Override
     public void start(Stage palco) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Q2.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("tela1Menu.fxml"));
         Scene screen = new Scene(root);
-        palco.setTitle("ArredondarNumero");
+        palco.setTitle("Cadastro de Usuarios");
         palco.setScene(screen);
         palco.show();
     }

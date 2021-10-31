@@ -14,7 +14,7 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
-            "mainClass": "visao.App",
+            "mainClass": "App",
             "projectName": "Atividade_14-1_2fc62d4c",
             "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
         }

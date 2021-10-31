@@ -10,12 +10,12 @@
    <children>
       <MenuBar fx:id="menuBar">
         <menus>
-          <Menu fx:id="menuItemCadastro" mnemonicParsing="false" text="Cadastros">
+          <Menu fx:id="menuItemCadastro" mnemonicParsing="false" onAction="#showFXMLAnchorPaneCadastroClientes" text="Cadastros">
             <items>
               <MenuItem fx:id="menuItemCadastroClientes" mnemonicParsing="false" text="Clientes" />
             </items>
           </Menu>
-          <Menu fx:id="menuItemRelatorios" mnemonicParsing="false" text="Relatórios">
+          <Menu fx:id="menuItemRelatorios" mnemonicParsing="false" onAction="#showFXMLAnchorPaneRelatorio" text="Relatórios">
             <items>
               <MenuItem fx:id="menuItemRelatoriosVendas" mnemonicParsing="false" text="Vendas por Mês" />
             </items>
